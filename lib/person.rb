@@ -1,8 +1,11 @@
+class Bob
+end
+
 bob_attributes = {name: "Bob", hair_color: "Brown"}
  
 bob = Person.new(bob_attributes)
-bob.name       # => "Bob"
-bob.hair_color # => "Brown"
+bob.name       
+bob.hair_color
  
 susan_attributes = {name: "Susan", height: "5'11\"", eye_color: "Green"}
  
